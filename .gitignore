@@ -1,0 +1,106 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+pip-wheel-metadata/
+
+# Virtual environments
+.env
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest
+.pytest_cache/
+
+# mypy
+.mypy_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+coverage.xml
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files
+logs/
+*.log
+*.sqlite3
+
+# Model artifacts and large binaries (ignore by default — track if you want)
+model/
+*.h5
+*.keras
+*.pkl
+*.joblib
+*.sav
+
+# Compiled Cython files
+*.c
+*.pyd
+
+# Secrets / environment variables
+.env.local
+.env.*.local
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Optional: lockfiles for poetry / pipenv (if not needed)
+poetry.lock
+Pipfile.lock
+
+# Coverage / test result caches
+.coverage
+.coverage.*
+
+# VS Code workspace storage
+.vscode/
+
+# Node modules (if frontend present)
+node_modules/
+
+# Docker
+docker-compose.override.yml
+.env.docker
+
+# macOS
+.AppleDouble
+.LSOverride

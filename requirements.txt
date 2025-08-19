@@ -1,0 +1,12 @@
+# Requirements for FastAPI Keras inference API
+# Adjust versions to match your environment (GPU users may want tensorflow-gpu)
+fastapi
+uvicorn[standard]
+tensorflow
+scikit-learn
+numpy
+pandas
+joblib
+python-multipart
+pydantic
+typing-extensions
